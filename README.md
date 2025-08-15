@@ -1,5 +1,7 @@
 # XML-Project---contact-list-parsing
 
+项目目的：通过 Java 编程实现对“通讯录”（contact9.xml）的 XML 文档的解析，并把解析结果存到数据库的表中。并进一步实现相反的过程，即将数据库表的内容读出来，并将其转化为 XML 文件存储起来。
+
 # Java XML与数据库双向转换系统
 
 ![Java](https://img.shields.io/badge/Java-17-blue) 
@@ -203,34 +205,3 @@ docker run --name mysql-container -e MYSQL_ROOT_PASSWORD=secret -d mysql:8.0
 
 ```
 
-
-
-该README采用以下优化策略：
-1. 结构化呈现：使用Mermaid图表展示系统架构和业务流程
-2. 代码高亮：对关键代码片段进行语法高亮
-3. 交互元素：包含可执行的部署脚本和配置示例
-4. 可视化设计：使用表格和流程图增强可读性
-5. 维护友好：包含完整的许可证和贡献指南
-
-建议配合GitHub Actions实现自动化：
-yaml
-.github/workflows/build.yml
-
-name: Java CI
-
-on: [push]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Set up JDK
-        uses: actions/setup-java@v3
-        with:
-          java-version: '17'
-      - name: Build with Maven
-        run: mvn clean package
-```
-
-通过这种结构化网页，开发者可以快速理解项目架构，运维人员能清晰掌握部署流程，贡献者可依据规范参与开发。
