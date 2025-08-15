@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<PhoneInfo>
+    <contact person="OnePlus" tags=" author OnePlus">
+        <name title="11 Pro">
+            <first>Jeff</first>
+            <middle>Craig</middle>
+            <Rafter>Craig</Rafter>
+        </name>
+        <location>
+            <address>Redlands, CA, USA</address>
+            <latitude>34.031892</latitude>
+            <longitude/>
+        </location>
+        <phone kind="Home">001-909-555-1212</phone>
+        <knows contacts="David_Hunter Danny_Ayers"/>
+    </contact>
+    <contact person="OnePlus" tags=" author OnePlus">
+        <name title="11 Pro">
+            <first>Jeff</first>
+            <middle>Craig</middle>
+            <last>Craig</last>
+        </name>
+        <location>
+            <address>Redlands, CA, USA</address>
+            <latitude>34.031892</latitude>
+            <longitude>Craig</longitude>
+        </location>
+        <phone kind="Home">001-909-555-1212</phone>
+        <knows contacts="David_Hunter Danny_Ayers"/>
+        <description>Jeff is a developer and author for Beginning XML &lt;em&gt;4th edition&lt;/em&gt;.&lt;br/&gt;Jeff
+            &lt;strong&gt;loves&lt;/strong&gt; XML!
+        </description>
+    </contact>
+</PhoneInfo>
+
+        <?xml version="1.0"?>
+<contacts
+xmlns="http://www.example.com/contacts"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.example.com/contacts contacts9.xsd"
+source="Beginning XML 4E"
+version="1.0">
+<contact person="Jeff_Rafter" tags="author xml poetry">
+    <name title="Mr.">
+        <first>Jeff</first>
+        <middle>Craig</middle>
+        <last>Rafter</last>
+    </name>
+    <location>
+        <address>Redlands, CA, USA</address>
+        <latitude>34.031892</latitude>
+        <longitude>-117.207642</longitude>
+    </location>
+    <phone kind="Home">001-909-555-1212</phone>
+    <knows contacts="David_Hunter Danny_Ayers"/>
+    <description>
+        Jeff is a developer and author for Beginning XML <em>4th edition</em>.<br/>Jeff
+        <strong>loves</strong> XML!
+    </description>
+</contact>
+
+
+<contact person="David_Hunter" tags="author consultant CGI">
+    <name>
+        <first>David</first>
+        <last>Hunter</last>
+    </name>
+    <location>
+        <address>Address is not known</address>
+    </location>
+    <phone kind="Work">416 555 1212</phone>
+    <knows contacts="Jeff_Rafter Danny_Ayers"/>
+    <description>Senior Technical Consultant for CGI.</description>
+</contact>
+
+
+<contact person="Danny_Ayers" tags="author semantics animals">
+    <name>
+        <first>Daniel</first>
+        <middle>John</middle>
+        <last>Ayers</last>
+    </name>
+    <location>
+        <latitude>43.847156</latitude>
+        <longitude>10.50808</longitude>
+        <address>Mozzanella, 7 Castiglione di Garfagnana, 55033 Lucca Italy</address>
+    </location>
+    <phone>+39-0555-11-22-33-</phone>
+    <knows contacts="Jeff_Rafter David_Hunter"/>
+    <description>A Semantic Web developer and technical author specializing in cutting-edge technologies.
+    </description>
+</contact>
+
+
+</contacts>
